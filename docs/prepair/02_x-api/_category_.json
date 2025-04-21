@@ -1,0 +1,8 @@
+{
+  "label": "X-APIの設定",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "プログラムからの投稿に必要な設定とキーを取得します。"
+  }
+}

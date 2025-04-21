@@ -1,0 +1,8 @@
+{
+  "label": "Googleシートの設定",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "最初にGoogleシートの設定を行います。"
+  }
+}
