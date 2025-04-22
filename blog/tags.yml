@@ -17,3 +17,8 @@ facebook:
   label: 'Facebook'
   permalink: '/facebook'
   description: 'Articles on the topic facebook'
+
+release:
+  label: 'リリース'
+  permalink: '/release'
+  description: '虎威リリース情報'

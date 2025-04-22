@@ -9,8 +9,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '虎威サポート',
-  tagline: '虎威サポートサイト',
+  title: 'X自動投稿ツール「虎威」',
+  tagline: '公式サポートサイト',
   favicon: 'img/favicon.ico',
   staticDirectories: ['public', 'static'],
 
@@ -69,7 +69,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/torai-social-card.jpg',
       navbar: {
         title: '虎威サポート',
         logo: {
@@ -183,7 +183,7 @@ const config = {
         showReadingTime: true,
         onUntruncatedBlogPosts: 'ignore',
         // Remove this to remove the "edit this page" links.
-        editUrl: 'https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/tree/master/',
+        editUrl: 'https://github.com/kztmk/doc-torai/tree/master/',
         remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
       },
     ],

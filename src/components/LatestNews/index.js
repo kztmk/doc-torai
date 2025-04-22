@@ -90,7 +90,7 @@ export default function LatestNews({ homePageBlogMetadata, recentPosts }) {
       </Grid>
       <Box className="text--center margin-top--lg">
         <Link to={homePageBlogMetadata.path}>
-          <Button variant="outlined">See all</Button>
+          <Button variant="outlined">もっと見る</Button>
         </Link>
       </Box>
     </Container>

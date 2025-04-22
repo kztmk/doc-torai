@@ -25,14 +25,14 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">
           {siteConfig.tagline} <br />
-          <Link href="https://github.com/namnguyenthanhwork/docusaurus-material-ui-template">
-            Please read README.md for more about project information
+          <Link href="https://sns-loong.imakita3gyo.com/ja/clp/torai" target="_blank">
+            Xで影響力を持つためのアカウント構築ツール 購入はこちらから
           </Link>
         </p>
 
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            使い方を確認する
           </Link>
         </div>
       </div>
