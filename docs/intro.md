@@ -10,18 +10,38 @@ sidebar_position: 1
 - 動作の不具合
 - 機能追加
 
-など、ご遠慮なくメールにてお知らせください。
+など、ご遠慮なく[メール](mailto:support@imakita3gyo.com)にてお知らせください。
 
-サポートにいただいたメールは原則 24 時間以内に返信します。48 時間が経過後も返信がない場合は不達の可能性が高いため、お手数ですが再度ご連絡いただくようお願いします。
+サポートにいただいたメールは原則 24 時間以内に返信します。24 時間が経過後も返信がない場合は不達の可能性が高いため、お手数ですが再度ご連絡いただくようお願いします。
 
-## 虎威とは？
+## X 自動投稿ツール「虎威」とは？
 
-「虎威」は、X へのポストを指定した時間に自動で投稿するアプリケーションです。スレッド投稿も予約できます。
+「虎威」は、X へのポストを指定した時間に自動で投稿するアプリケーションです。
 
-「虎威」は、作成した投稿データ（文字コンテンツ、投稿時刻、スレッド情報）は Google Sheet に保存し、投稿する画像・動画は Google Drive へ保存します。
-Google Sheet の拡張機能「Apps Script」が指定時刻毎に投稿時刻をチェックし時間になれば自動で投稿します。
+また、AI を使用したキーワードからの投稿原稿の一括作成、スレッド投稿などの投稿支援、バズ支援機能も備えています。
 
-投稿を作成し、自動投稿開始にすれば PC をオフにしても自動投稿は Google から行われます。
+これまでの「Google シート方眼紙」の編集のワズらわしさから解放され、X の投稿画面とほぼ同じ画面で投稿を作成・編集できます。
+
+![Googleツール連携でXへの自動投稿ツール](./torai/img/torai_exp.jpg)
+
+### 特徴
+
+- **<u>⭕ Google アプリをバックエンドツールとして使用</u>**
+  - Google シートを投稿データ管理に
+  - Google ドライブを画像・動画管理に
+  - Google Apps Script で PC オフでも自動投稿プログラム実行
+- **<u>⭕️ 投稿作成は GUI で</u>**
+  - スプレッドシートに書き込んでいた作業から GUI で入力
+  - 画像の選択はマウスクリックで
+  - 投稿時刻設定も個別・一括設定がクリックだけで
+- **<u>⭕️ スレッド投稿が予約できる</u>**
+  - クリックだけでスレッド投稿の予約が完成
+- **<u>⭕️ AI でキーワードからポストを一括作成</u>**
+  - キーワード入力だけでポストを一括作成
+  - 編集し選択するだけでポスト作成完了
+- **<u>⭕ Web アプリだからスマホからも操作</u>**
+  - スマホからの操作も可能で空き時間を有効利用
+- **<u>⭕ 複数アカウント対応</u>**
 
 ### 今までの自動投稿ツールツールとの違い
 
@@ -36,35 +56,18 @@ Google Sheet の拡張機能「Apps Script」が指定時刻毎に投稿時刻�
 
 「虎威」は、Web アプリですから操作性が非常に良く、複数アカウントにも対応しています。
 
-## Generate a new site
+|       項目        |                虎威                 |        X(Twitter)投稿ツール         |           Socialdog           |
+| :---------------: | :---------------------------------: | :---------------------------------: | :---------------------------: |
+|       価格        |              32,780 円              |              21,800 円              |         月額 1,480 円         |
+|  複数アカウント   |              &#x2B55;               |              &#x2B55;               |         1 アカウント          |
+|     投稿方法      | Google スプレッドシートからの X API | Google スプレッドシートからの X API | 独自システムからの X API 経由 |
+| X の API キー取得 |                必要                 |                必要                 |             不要              |
+|  有料プラン対応   |              &#x2B55;               |              &#x2B55;               |             不明              |
+|    投稿限度数     |              X の制限               |              X の制限               |             不明              |
+|    高度ポスト     |              &#x2B55;               |              &#x2B55;               |           &#x2B55;            |
+|  ポスト作成支援   |               AI 利用               |              &#x274C;               |           &#x274C;            |
 
-Generate a new Docusaurus site using the **classic template**.
+- 高度ポストとはスレッド投稿、リプライ投稿です。
+- X の制限とは、X での API 使用での投稿は 1 アカウント 1 日 17 件（無料プラン）です。
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
-
-By Google, LLC - https://www.google.com/intl/en_in/drive/, Public Domain, https://commons.wikimedia.org/w/index.php?curid=94802767
-Google - 1, パブリック・ドメイン, https://commons.wikimedia.org/w/index.php?curid=96216271による
-By Original: Google LLCVectorization: Alhadis - Own work based on: Google Apps Script.png by Reap member, Public Domain, https://commons.wikimedia.org/w/index.php?curid=113285363
+### それでは自動投稿の準備を始めましょう。
