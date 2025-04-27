@@ -1,0 +1,182 @@
+---
+sidebar_position: 3
+sidebar_label: 'Xへのポスト作成'
+---
+
+import Image from '@theme/IdealImage';
+
+import * as React from 'react';
+import Timeline from '@mui/lab/Timeline';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
+import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
+import xp03 from './img03/xp03.jpg';
+import xp05 from './img03/xp05.jpg';
+import xp06 from './img03/xp06.jpg';
+import xp07 from './img03/xp07.jpg';
+import xp16 from './img03/xp16.jpg';
+import xp08 from './img03/xp08.jpg';
+
+# X のポスト作成
+
+左側メニューの X の項目にある「X アカウント」を選択、または、X アカウント一覧から X アカウントのリンクをクリックします。
+
+ここでアカウント毎の X への投稿を管理します。
+
+![Xアカウントのポスト一覧](./img03/xp01.jpg)
+
+作業の流れは、
+
+    <Timeline>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>新規ポスト作成ボタンをクリック</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>ポスト作成フォームに入力</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot />
+        </TimelineSeparator>
+        <TimelineContent>保存</TimelineContent>
+      </TimelineItem>
+    </Timeline>
+
+となります。
+
+## 通常作成
+
+ひとつずつ X のポストを作成する方法です。画面は X でポストする画面とほぼ同じです。
+
+「新規ポスト作成」ボタンをクリックします。
+![Xへのポスト新規作成](./img03/xp02.jpg)
+
+新規作成フォームが開きますので、ポスト内容を入力します。
+
+<Image img={xp03} alt="Xアカウント新規登録" style={{ width: '350px', height: 'auto' }} />
+
+### 画像・動画の追加
+
+「画像追加」ボタンをクリックするとファイル選択ダイアログが表示されますので、投稿する画像を選択します。
+
+![](./img03/xp04a.jpg)
+
+画像を選択すると、ポスト作成フォームに読み込まれます。X への画像投稿は 4 枚まで可能です。動画の場合には、「.mp4」を選択してください。
+
+<Image img={xp05} alt="Xアカウント新規登録" style={{ width: '350px', height: 'auto' }} />
+
+### 投稿時刻の設定
+
+投稿時刻は、一括で作成することもできますし、変更することもできます。
+
+予約設定の入力欄をクリックすると、カレンダーで投稿日を、時間入力欄で投稿時刻を選択します。
+
+<Image img={xp06} alt="Xアカウント新規登録" style={{ width: '350px', height: 'auto' }} />
+
+### 保存
+
+保存ボタンで作成した投稿を保存します。
+
+<Image img={xp07} alt="Xアカウント新規登録" style={{ width: '350px', height: 'auto' }} />
+
+### 新規ポスト作成完了
+
+保存が完了すると、ポスト一覧に作成したポストが表示されます。
+![ポスト作成完了](./img03/xp11.jpg)
+
+## 画像・動画が含まれている場合
+
+作成したポストに画像・動画が組まれている場合には、Google ドライブへ画像・動画をアップロードします。
+
+Google ドライブへアクセスするための認証を求められますので、シートと同じ Google アカウントを選択して認証します。
+
+<Image img={xp08} alt="Xアカウント新規登録" style={{ width: '350px', height: 'auto' }} />
+
+認証が完了すると画像を Google ドライブへアップロードし、投稿は Google シートへ保存します。
+![Googleシート、Googleドライブへアップロード](./img03/xp10.png)
+
+Google ドライブには、
+
+📁 マイドライブ以下に「X_Post_MediaFiles」フォルダを自動作成し、年、月フォルダを作成し画像を保存します。
+![](./img03/xp12.jpg)
+
+### Google ドライブの画像を選択
+
+Google ドライブに画像が保存してあり、共有設定が「全員」になっている画像・動画を選択することができます。
+
+Google ドライブアイコンをクリックすると、Google ドライブが開きます。
+
+![](./img03/xp13a.jpg)
+
+Google ドライブの画像をクリックし「Select」ボタンをクリックします。
+![](./img03/xp15.jpg)
+
+選択した画像が読み込まれます。
+
+<Image img={xp16} alt="Xアカウント新規登録" style={{ width: '350px', height: 'auto' }} />
+
+#### Google ドライブの画像を選択できるようにする。
+
+Google ドライブの画像を選択できるようにするためには、
+
+1.  Google ドライブにアップロード（フォルダなどは制限ありません。）
+2.  共有設定を「全員」に変更する。
+
+を行ってください。
+
+こちらの画像は、ファイル名の橫に共有マークがありません。
+
+![](./img03/xp17.jpg)
+
+ファオルを選択し、右クリックでメニューを表示させ、「共有」-「共有」を選択します。
+![](./img03/xp18.jpg)
+
+「一般的なアクセス」を「リンクを知っている全員」に変更します。
+![](./img03/xp19.jpg)
+
+ファイル名の橫に共有マークが付きます。
+![](./img03/xp20.jpg)
+
+共有が「リンクを知っている全員」になっていれば選択できるようになります。
+![](./img03/xp21.jpg)
+
+## AI での一括作成
+
+AI（Google Gemini）を使いポストを自動作成します。
+
+ポスト一覧の「AI」アイコンをクリックします。
+![](./img03/aip01.jpg)
+
+「バズる X ポスト案 作成」がポップアップ表示します。
+
+キーワードを入力し、「ポスト案を生成」ボタンをクリックします。
+![](./img03/aip02.jpg)
+
+Gemini が考えています。
+![](./img03/aip03.jpg)
+
+ポストが出来上がると表示します。
+
+テキスト欄は直接編集ができます。
+
+また、チェックボックスを ON にしたポスト案を取り込むことができます。
+![](./img03/aip04.jpg)
+
+ポスト案のチェックボックスを ON にし、「採用したポストを取込」ボタンをクリックします。
+![](./img03/aip05.jpg)
+
+ポスト一覧に取込みが完了しました。
+![](./img03/aip06.jpg)
+
+意識することはありませんが、Google シートに書込みもされています。
+![](./img03/aip07.jpg)

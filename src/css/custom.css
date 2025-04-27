@@ -1,0 +1,35 @@
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: var(--ifm-color-primary);
+}
+
+.timeline-item {
+  position: relative;
+  margin: 40px 0;
+  width: 50%;
+  padding: 20px;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}
