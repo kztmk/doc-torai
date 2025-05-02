@@ -8,7 +8,7 @@ import 'swiper/css';
 const FeatureList = [
   {
     title: 'GUIでGoogleシートを操作',
-    imgSrc: 'img/torai_gui.jpg',
+    imgSrc: 'img/torai_explaine-3.jpg',
     description: (
       <>
         「Googleシートでセルを編集する」沢山の投稿があれば編集作業が大変です。でもGUIなら画像の設定もクリックだけ。今までの自動投稿ツールの全てが過去のものに。
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'AIでキーワードからポストを自動作成',
-    imgSrc: 'img/torai_ai.jpg',
+    imgSrc: 'img/torai_explaine-4.jpg',
     description: (
       <>
         「なにを投稿すればよいのか？・・・」もう、悩みません。AIがキーワードからポストを自動作成します。あなたのアカウントを育てるための最適な投稿をAIが提案します。
@@ -36,7 +36,7 @@ const FeatureList = [
   },
   {
     title: 'スレッド投稿も予約できる',
-    imgSrc: 'img/torai_thread.jpg',
+    imgSrc: 'img/torai_explaine-5.jpg',
     description: (
       <>
         スレッド投稿で過去の投稿にも予約で作成。スレッド投稿でポストのチカラを最大限に引き出します。埋もれた投稿もスレッドで再利用。過去の投稿を最大限に活用します。
