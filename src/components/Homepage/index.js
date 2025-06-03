@@ -25,14 +25,14 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">
           {siteConfig.tagline} <br />
-          <Link href="https://sns-loong.imakita3gyo.com/ja/clp/torai" target="_blank">
+          <Link href="https://sns-loong.imakita3gyo.com/ja/clp/torai-info" target="_blank">
             Xで影響力を持つためのアカウント構築ツール 購入はこちらから
           </Link>
         </p>
 
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro">
-            使い方を確認する
+          <Link className="button button--secondary button--lg" to="https://doc-torai.try-try.com/blog/blog-20250510">
+            設定がメンドウなあなたに、代行サービスがあります。
           </Link>
         </div>
       </div>

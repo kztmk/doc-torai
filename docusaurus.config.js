@@ -140,7 +140,7 @@ const config = {
               },
               {
                 label: '虎威購入',
-                href: 'https://sns-loong.imakita3gyo.com/ja/clp/torai',
+                href: 'https://sns-loong.imakita3gyo.com/ja/clp/torai-info',
               },
             ],
           },
