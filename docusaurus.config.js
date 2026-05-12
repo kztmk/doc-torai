@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-require('dotenv').config();
+require('dotenv').config({ quiet: true });
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
@@ -37,7 +37,10 @@ const config = {
   },
 
   future: {
-    experimental_faster: true,
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+    },
+    faster: true,
   },
   customFields: {
     googleTagManager: process.env.DOCUSAURUS_GOOGLE_TAG_MANAGER,

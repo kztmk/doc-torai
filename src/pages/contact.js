@@ -195,7 +195,7 @@ export default function ContactForm() {
                 </FormControl>
               </Grid>
 
-              <Grid xs={12} sx={{ mt: 2 }}>
+              <Grid size={{ xs: 12 }} sx={{ mt: 2 }}>
                 <Button
                   type="submit"
                   variant="contained"
